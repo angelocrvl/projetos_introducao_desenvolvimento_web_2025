@@ -4,6 +4,7 @@ header,article,h1{
 header{
     background-color: black;
     border: solid 5px; 
+    text-align: center;
 }
 article{
     border: solid 5px;
@@ -14,9 +15,7 @@ h1{
     margin:0px;
     padding:5px;
 }
-img{
-    padding-left:350px;
-}
+s
 p{
     color:white;
     text-align:center
