@@ -5,6 +5,7 @@ header{
     background-color: black;
     border: solid 5px; 
     text-align: center;
+    color: white;
 }
 article{
     border: solid 5px;
@@ -29,4 +30,8 @@ footer{
     margin:0px;
     border: solid 25px;
     border-color:black;
+}
+
+body{
+    padding: 400px;
 }
