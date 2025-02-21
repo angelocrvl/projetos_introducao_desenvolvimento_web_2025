@@ -1,0 +1,22 @@
+header{
+    text-align:center;
+    border: solid gray 5px;
+}
+
+p{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+article{
+    border: solid gray 5px;
+}
+
+h6{
+    font-size: 40px;
+    margin:30px;
+    text-align: justify;
+}
