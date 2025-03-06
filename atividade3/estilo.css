@@ -1,0 +1,41 @@
+body {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+header {
+    background-color: yellow;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+article {
+    text-align: center;
+    margin: 50px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    border: solid 30px yellow
+}
+
+html {
+    background-color: #d9d9d9;
+}
