@@ -15,10 +15,14 @@ body {
 }
 
 .cabecalho {
+    display: flex;
     background-color:#04C9F4;
     grid-area: cabecalho;
     min-width: 622px;
     min-height: 45px;
+    color: #FFFFFF;
+    padding: 0;
+    align-items: center;
 }
 
 .arealateral {
