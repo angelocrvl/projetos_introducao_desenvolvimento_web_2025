@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>página de cadastro</title>
+    <link rel="stylesheet" href="estilo3.css">
+</head>
+
+<body>
+    <header class="cabecalho">Cadastro de Usuário</header>
+    <aside class="arealateral">
+        <nav>
+            <ul>
+                <li id="home"><a href="home.html">HOME</a></li>
+                <li id="cadastros"><a>CADASTROS</a></li>
+                <li><a href="cad_cidade.html">CIDADE</a></li>
+                <li><a href="cad_estado.html">ESTADO</a></li>
+                <li><a href="cad_pais.html">PAÍS</a></li>
+                <li><a href="cad_usuario.html">USUÁRIO</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="conteudoprincipal">
+        <form>
+            <section class="principal">
+                <label for="nome" id="rotulo">Nome:</label>
+                <br>
+                <input type="text" id="nome" name="nome">
+                <div>
+                    <label for="estado" id="rotulo">Estado:</label>
+                    <label for="codigo" id="rotulo">Código do município:</label>
+                    <br>
+                    <input type="text" id="estado" name="estado">
+                    <input type="text" id="codigo" name="codigo">
+                    <br>
+                </div>
+                <label for="regiao" id="rotulo">Região:</label>
+                <br>
+                <input type="text" id="regiao" name="regiao">
+            </section>
+        </form>
+        <section class="botoes">
+            <button class="buscar">BUSCAR</button>
+            <button class="excluir">EXCLUIR</button>
+            <button class="cancelar">CANCELAR</button>
+            <button class="buscar">SALVAR</button>
+        </section>
+
+
+    </main>
+    <footer class="rodape">SISTEMA DE ARMAZENAMENTO GEOGRÁFICO - 2025</footer>
+</body>
+
+</html>

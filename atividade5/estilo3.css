@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "arealateral cabecalho cabecalho"
+        "arealateral conteudoprincipal conteudoprincipal"
+        "arealateral rodape rodape";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 85vh auto;
+    gap: 0;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #04C9F4;
+    grid-area: cabecalho;
+    min-width: 622px;
+    min-height: 45px;
+    color: #FFFFFF;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.arealateral {
+    background-color: #d9d9d9;
+    grid-area: arealateral;
+}
+
+#home {
+    background-color: #D9D9D9;
+}
+
+#cadastros {
+    background-color: #D9D9D9;
+}
+
+.arealateral ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.arealateral nav a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+}
+
+.arealateral nav li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: solid 1px #666;
+    background-color: #04C9F4;
+}
+
+.arealateral nav li:hover {
+    background-color: #666;
+}
+
+.conteudoprincipal {
+    background-color: #FFFFFF;
+    grid-area: conteudoprincipal;
+    max-width: 100%;
+    max-height: 60%;
+}
+
+input {
+    max-width: 100vw;
+    max-height: 46vh;
+    border: 0;
+}
+
+button {
+    min-width: 95px;
+    min-height: 31px;
+    color: #FFFFFF;
+    border: 0;
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    border-bottom: solid 1px #666;
+}
+
+.botoes {
+    display: flex;
+    justify-content: inherit;
+    margin: 10px;
+}
+
+.buscar {
+    background-color: #04C9F4;
+}
+
+.excluir {
+    background-color: #F40404;
+}
+
+.cancelar {
+    color: #04C9F4;
+    background-color: #FFFFFF;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #FFFFFF;
+    grid-area: rodape;
+    color: #04C9F4;
+    min-width: 622px;
+    min-height: 45px;
+}
+
+#nome {
+    grid-area: "nome";
+    width: 436px;
+    height: 46px;
+}
+
+#estado {
+    grid-area: "estado";
+    width: 66px;
+    height: 38px;
+}
+
+#codigo {
+    grid-area: "codigo";
+    width: 363px;
+    height: 38px;
+}
+
+#regiao {
+    grid-area: "regiao";
+    width: 436px;
+    height: 46px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #a1a0a0;
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.principal {
+    min-width: 454px;
+    min-height: 223px;
+    padding: 20px;
+    background-color: #a1a0a0;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        grid-template-areas:
+            "cabecalho cabecalho cabecalho"
+            "arealateral arealateral arealateral"
+            "conteudoprincipal conteudoprincipal conteudoprincipal"
+            "rodape rodape rodape";
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto 85vh auto;
+    }
+
+    .arealateral ul {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #nome {
+        max-width: 436px;
+        max-height: 46px;
+    }
+    
+    #estado {
+        max-width: 66px;
+        max-height: 38px;
+    }
+
+    #codigo {
+        max-width: 363px;
+        max-height: 38px;
+    }
+
+    #regiao {
+        max-width: 436px;
+        max-height: 46px;
+    }
+
+}

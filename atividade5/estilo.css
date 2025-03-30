@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E7E7;
+}
+
+header {
+    background-color: #04C9F4;
+}
+
+.containerpai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 153px;
+    height: 115px;
+}
+
+.containerlogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 394px;
+    height: 335px;
+    margin: 169px 209px;
+    background-color: #D9D9D9;
+    box-shadow: #00000040;
+}
+
+.containerlogin input {
+    width: 330px;
+    height: 46px;
+}
+
+.containerlogin button {
+    width: 160px;
+    height: 44px;
+    background-color: #04C9F4;
+    color: #FFFFFF;
+}
