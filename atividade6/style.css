@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    padding: 30px;
+}
+
+li{
+    border: solid 1px black;
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+li:hover{
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    border: solid 1px black;
+    background-color: cornflowerblue ;
+    font-size: larger;
+    padding: 20px;
+}

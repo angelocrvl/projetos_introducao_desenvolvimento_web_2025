@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    flex-direction: column;
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+
+section{
+    margin: 10px;
+}
+
+label{
+    background-color: skyblue;
+    border: solid 3px skyblue;
+    border-radius: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
