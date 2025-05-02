@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center
+}
+
+p{
+    color: #f00;
+}
+
+.container{
+    margin-top: 40vh;
+    border: solid 1px black;
+    padding: 20px;
+}
+
+div{
+    margin-top: 10px;
+}
+
+textarea{
+    width: 100%;
+}
+
+label{
+    font-weight: bold;
+}
+
+#nome, #email, #msg{
+    width: 100%;
+}
+
+#botao{
+    color: #fff;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
