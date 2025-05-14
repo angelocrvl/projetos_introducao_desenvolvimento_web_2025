@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js"></script>
+    <title>cálculos de avaliação física</title>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+
+            <div>
+                <label for="nome">nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="idade">idade:</label>
+                <input type="number" name="idade" id="idade">
+            </div>
+            <br>
+            <div>
+                <label for="masculino">sexo:</label>
+                <label for="feminino">feminino</label>
+                <input type="radio" name="masculino" id="feminino" value="feminino">
+                <label for="masculino">masculino</label>
+                <input type="radio" name="sexo" id="masculino" value="masculino">
+            </div>
+            <br>
+            <div>
+                <label for="peso">peso:</label>
+                <input type="number" name="peso" id="peso">
+                <label for="altura">altura(cm):</label>
+                <input type="number" name="altura" id="altura">
+            </div>
+            <br>
+            <div>
+                <label for="MTalto">nível de atividade física:</label>
+                <br>
+                <label for="MTalto">extremamente ativo</label>
+                <input type="radio" name="nivel" id="MTalto" value=1.9>
+                <br>    
+                <label for="alto">muito ativo</label>
+                <input type="radio" name="nivel" id="alto" value=1.725>
+                <br>
+                <label for="moderado">moderadamente ativo</label>
+                <input type="radio" name="nivel" id="moderado" value=1.55>
+                <br>
+                <label for="baixo">levemente ativo</label>
+                <input type="radio" name="nivel" id="baixo" value=1.375>
+                <br>
+                <label for="nenhum">sedentário</label>
+                <input type="radio" name="nivel" id="sedentário" value=1.2>
+            </div>
+            <br>
+            <div>
+                <label for="pesoP">quantidade de quilos a se perder:</label>
+                <input type="number" name="pesoP" id="pesoP">
+                <label for="dias">quantidade de dias para o prazo:</label>
+                <input type="number" name="dias" id="dias">
+            </div>
+            <br>
+            <div>
+                <label for="dist">distância a se caminhar(km):</label>
+                <input type="number" name="dist" id="dist">
+            </div>
+            <br>
+            <div>
+               <input type="button" value="enviar" id="btTMB" onclick="calculoTMB()">
+            </div>
+            <br>
+            <div>
+                <p id="resultado1" name="resultado1"></p>
+                <p id="resultado2" name="resultado2"></p>
+                <p id="resultado3" name="resultado3"></p>
+                <p id="resultado4" name="resultado4"></p>
+                <p id="resultado5" name="resultado5"></p>
+                <p id="resultado6" name="resultado6"></p>
+                <p id="resultado7" name="resultado7"></p>
+            </div>
+
+
+        </div>
+    </form>
+</body>
+
+</html>
