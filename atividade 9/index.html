@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <section id="sectionmainhome">
+        
+        <section id="sectionlogo">
+            <section id="cadastrocidade"><p>Cadastro de Contato</p></section>
+            <section id="formcidade">
+                <form style="height: 90%;display: grid; grid-template-columns: 50% 50%;grid-template-rows: 8% 27% 8% 30% 8% 15%;" >
+                    <label style="grid-column: 1;grid-row: 1;" class="textos" for="nome">Nome:</label>
+                    <input style="grid-column: 1;grid-row: 2;" type="text" id="nome">
+                    <label style="grid-column: 2;grid-row: 1;" class="textos" for="sobrenome">Sobrenome:</label>
+                    <input style="grid-column: 2;grid-row: 2;" type="text" id="sobrenome">
+                    <label style="grid-column: 1;grid-row: 3;" class="textos" for="endereco">Endereço:</label>
+                    <input style="grid-column: 1/3;grid-row: 4;" type="text" id="endereco">
+                    <label style="grid-column: 1;grid-row: 5;" class="textos" for="telefone">Telefone:</label>
+                    <input style="grid-column: 1;grid-row: 6;" type="text" id="telefone">
+                    
+                </form>
+                <section id="botoes">
+                    
+                    <button id="botaoverde">INCLUIR</button>
+                    <button id="botaoamarelo">EDITAR</button>
+                    <button id="botaoazul">SALVAR</button>
+                    <button id="botaobranco">CANCELAR</button>
+                    <button id="botaovermelho">EXCLUIR</button>
+                    
+                    
+                </section>
+                
+            </section>
+
+            <section id="botoespretos">
+                   
+                <button class="botoespretos" id="botaoprimeiro"> |< </button>
+                <button class="botoespretos" id="botaoanterior"> < </button>
+                <button class="botoespretos" id="botaoproximo"> > </button>
+                <button class="botoespretos" id="botaoultimo"> >| </button>
+                
+
+            </section>
+            
+           
+            <section id="rodape"><p>AGENDA DE CONTATOS</p></section>
+        </section>
+        
+
+        </section>
+    </section>
+
+    <script src="scriptcadastro.js"></script>
+
+
+</body>
+</html>
